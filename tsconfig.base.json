@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@challenge/state": ["libs/src/index.ts"],
+      "@challenge/types": ["libs/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
