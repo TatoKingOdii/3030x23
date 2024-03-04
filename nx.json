@@ -55,7 +55,30 @@
       "e2eTestRunner": "cypress",
       "linter": "eslint",
       "style": "scss",
+      "unitTestRunner": "jest",
+      "standalone": true
+    },
+    "@nx/angular:component": {
+      "style": "scss",
+      "standalone": true
+    },
+    "@nxext/ionic-angular:application": {
+      "style": "scss",
+      "standalone": true
+    },
+    "@nx/angular:library": {
+      "linter": "eslint",
       "unitTestRunner": "jest"
+    }
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss",
+      "standalone": true
+    },
+    "@nx/angular:component": {
+      "style": "scss",
+      "standalone": true
     }
   }
 }
